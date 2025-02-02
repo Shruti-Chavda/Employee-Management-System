@@ -1,0 +1,123 @@
+/*
+-- Register Employees
+*/
+.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input-group1 {
+}
+
+
+.error1 {
+    color: red;
+}
+
+.input--style-1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.rs-select2 {
+    width: 100%;
+}
+
+/* Button Styles */
+.btn--radius {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn--radius:hover {
+    background-color: #45a049;
+}
+
+.p-t-20 {
+    text-align: center;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .card {
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}
+
+
+/*
+-- Radio button
+*/
+
+/* Radio Button Styles */
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-container {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    margin-top:10px;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.radio-container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.radio-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

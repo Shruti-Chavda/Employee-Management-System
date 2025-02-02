@@ -1,0 +1,8 @@
+    Salary 15000=>  Marks on particular project to particular employee=> 10=> Bonus=> 10% => Salary 15000+1500=> 16500
+
+    Likewise=>  Marks on particular project to particular employee=> 20=> Bonus=> 20% => Salary 15000+3000=> 18000
+
+    Likewise=>  Marks on particular project to particular employee=> 30=> Bonus=> 30% => Salary 15000+4500=> 
+    19500
+
+ctrl+alt+4=> ₹
