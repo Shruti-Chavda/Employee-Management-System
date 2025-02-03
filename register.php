@@ -86,14 +86,14 @@ $res11=mysqli_query($con, $insert_salary_query);
                     $mail->isSMTP(); // Set mailer to use SMTP
                     $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
                     $mail->SMTPAuth = true; // Enable SMTP authentication
-                    $mail->Username = 'chavdashruti516@gmail.com'; // SMTP username
-                    $mail->Password = 'xwig fjqp gnea fqml'; // SMTP password
+                    $mail->Username = '#'; // SMTP username
+                    $mail->Password = '#'; // SMTP password
                     $mail->SMTPSecure = 'ssl'; // Enable TLS encryption, `ssl` also accepted
                     $mail->Port = 465; // TCP port to connect to
                     $mail->SMTPDebug = 0;
 
                     // Recipients
-                    $mail->setFrom('chavdashruti516@gmail.com', 'Shruti Chavda'); // Sender's email address and name
+                    $mail->setFrom('#', '#'); // Sender's email address and name
                     $mail->addAddress($email, $first_name); // Recipient's email address and name
 
                     // Content
